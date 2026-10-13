@@ -47,7 +47,7 @@ public class Main {
             case 2:
                 registrarPaqueteInteractivo();
                 break;
-            case 3: 
+            case 3:
                 System.out.print("Ingrese el código del paquete: ");
                 String cod = scanner.nextLine().toUpperCase();
                 Paquete p = sistema.consultarPaquete(cod);
